@@ -1,4 +1,5 @@
 ---
+layout: ../../layouts/MarkdownPostLayout.astro
 title: "My First Blog Post"
 pubDate: 2023-11-06
 description: "This is the first post of my new Astro blog."
@@ -6,12 +7,8 @@ author: "Saul Rojas"
 image:
   url: "https://docs.astro.build/assets/full-logo-light.png"
   alt: "The full Astro logo."
-tags: ["astro", "blogging", "learning in public"]
+tags: ["astro", "blogging", "learning in public", "markdown"]
 ---
-
-# My First Blog Post
-
-Published on: 2023-11-06
 
 Welcome to my _new blog_ about learning Astro! Here, I will share my learning journey as I build a new website.
 
@@ -26,3 +23,17 @@ Welcome to my _new blog_ about learning Astro! Here, I will share my learning jo
 ## What's next
 
 I will finish the Astro tutorial, and then keep adding more posts. Watch this space for more to come.
+
+# Some code
+
+I like to code in go :)
+
+```go
+package main
+
+import "fmt"
+
+func main(){
+  fmt.Println("Hello world!")
+}
+```
